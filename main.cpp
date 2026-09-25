@@ -12,7 +12,7 @@ int main() {
         int color1;
         int color2;
 
-        cout << "Hello what is your name? ";
+        cout << "Hello what is your name? (first name only) ";
         cin >> name;
 
         cout << endl;
@@ -117,7 +117,7 @@ int main() {
 
         // Ask the user if they want to repeat
         cout << endl;
-        cout << "Would you like to take the assessment again?" << endl;
+        cout << "Would you like to take the assessment again? (ONLY 1 or 2)" << endl;
         cout << "1. Yes" << endl;
         cout << "2. No" << endl;
         cout << "Enter choice: ";
